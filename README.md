@@ -1,0 +1,2 @@
+# clips-editor
+CLIPS editor
