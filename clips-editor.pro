@@ -51,7 +51,7 @@ FORMS += \
 # #Set Style
 # DEFINES += SETSTYLE
 
-# смотреть static.txt
+# static.txt
 # CONFIG += static upx
 
 win32: {

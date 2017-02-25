@@ -430,9 +430,9 @@ void MainWindow::addDock(QWidget* widget, QAction* action, QString title, Qt::Do
 {
     QDockWidget* dock = new QDockWidget(title);
 
-    action->setData(reinterpret_cast<int>(dock));
+ //   action->setData(reinterpret_cast<int>(dock));  DDH -- commented out to avoid error, need to fix!
 
-    dock->setObjectName(widget->objectName()); // для сохранения настроек
+    dock->setObjectName(widget->objectName());
     dock->setAllowedAreas(areas);
     dock->setWidget(widget);
 

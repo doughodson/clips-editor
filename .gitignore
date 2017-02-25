@@ -1,2 +1,9 @@
 
 clips-editor.pro.user
+moc_*
+ui_*
+*.o
+.qmake.stash
+Makefile
+qrc_clipseditor.cpp
+

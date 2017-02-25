@@ -65,7 +65,7 @@ public:
     struct Bookmark : public QTextBlockUserData
     {
         Bookmark(CodeEditor* editor, QTextBlock block)
-            : editor(editor), block(block), num(block.blockNumber()) { setActive(); }
+            : num(block.blockNumber()), block(block), editor(editor) { setActive(); }
 
         void setActive(bool active = true)
         {
